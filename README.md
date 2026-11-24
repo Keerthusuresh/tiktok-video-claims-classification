@@ -50,10 +50,3 @@ Random Forest is selected in this run. The tuning search produced a best three-f
 
 Install dependencies from requirements.txt, then open TikTok_Claims_Classification_End_to_End.ipynb in Jupyter and run all cells from top to bottom. Keep the data folder alongside the notebook.
 
-## Resume project summary
-
-Built an end-to-end machine learning classification project using Python, Pandas, Scikit-learn, and TF-IDF to classify TikTok videos as claims or opinions. Conducted data quality checks, EDA, hypothesis testing, feature engineering, Logistic Regression, Random Forest tuning, and held-out evaluation using precision, recall, F1-score, ROC-AUC, and business-risk interpretation.
-
-## Interview-ready explanation
-
-I built a binary classifier to help prioritize TikTok videos for human moderation review. I validated data quality and explored engagement and author status. I created rate-based and text-derived features, used stratified splitting, and kept preprocessing inside pipelines to avoid leakage. I compared a baseline, Logistic Regression, and Random Forest, then tuned Random Forest using training-only cross-validation. The model performed extremely well, but I would validate the timing of engagement signals, build a text-only early-stage model, and keep humans in the review loop before deployment.
